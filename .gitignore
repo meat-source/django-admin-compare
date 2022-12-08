@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+/migrations/
+/.idea/
+**/migrations/
+/COMPILE/build
+/COMPILE/dist
+/COMPILE/django_admin_compare
+/COMPILE/django_admin_compare.egg-info
+
+
