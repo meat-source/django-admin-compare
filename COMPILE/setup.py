@@ -11,7 +11,7 @@ setuptools.setup(
     description="adds an action 'compare' to the admin panel on a page with a list of objects.",
     long_description=read_me_description,
     long_description_content_type="text/markdown",
-    url="package_github_page",
+    url="https://github.com/meat-source/django-admin-compare",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
