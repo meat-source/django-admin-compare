@@ -9,8 +9,8 @@ class Car(models.Model):
     objects = models.Manager()  # явно указываем, чтобы использовать подсказки
 
     class Meta:
-        verbose_name = 'Машина'
-        verbose_name_plural = 'Машины'
+        verbose_name = 'Car'
+        verbose_name_plural = 'Cars'
 
     def __str__(self):
         return self.name

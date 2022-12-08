@@ -1,8 +1,15 @@
 from django.contrib import admin
 from django.shortcuts import render
+from django.conf import settings
+
+lg = settings.LANGUAGE_CODE
+if lg.find('en') != -1:
+    description = 'Compare'
+elif lg.find('ru') != -1:
+    description = 'Cравнить'
 
 
-@admin.action(description='Сравнить')
+@admin.action(description=description)
 def compare(modeladmin, request, queryset):
     original = queryset.values_list()
     turn90 = list(zip(*original[::-1]))  # поворачиваем данные на 90
