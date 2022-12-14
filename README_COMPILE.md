@@ -6,6 +6,5 @@
 ### cd COMPILE:
 python setup.py sdist bdist_wheel
 
-### забираем то что в dist:
-или загрузка в pypi
+### забираем то что в dist или загрузка в pypi:
 twine upload dist/*

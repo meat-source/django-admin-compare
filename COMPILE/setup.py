@@ -5,7 +5,7 @@ with open("README.md") as file:
 
 setuptools.setup(
     name="django-admin-compare",
-    version="0.1",
+    version="0.2",
     author="Slava Ukolov",
     author_email="ukolovsl88@gmail.com",
     description="adds an action 'compare' to the admin panel on a page with a list of objects.",
