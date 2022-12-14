@@ -19,6 +19,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.4',
-    install_requires=['Django>=3.2', 'numpy'],
     include_package_data=True
 )
