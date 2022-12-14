@@ -1,1 +1,6 @@
-recursive-include data *
+recursive-include * *
+recursive-exclude django_admin_compare.egg-info *
+recursive-exclude dist *
+exclude setup.py
+exclude MANIFEST.in
+include 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999.txt
